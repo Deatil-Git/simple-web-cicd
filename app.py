@@ -34,10 +34,11 @@ HTML = """<!DOCTYPE html>
 </head>
 <body>
     <div class="card">
-        
-<p style="color:#333;font-size:28px;font-weight:bold;margin-top:12px;">学号：2440666120 | 姓名：陈伟俊</p>
-    <h1>🚀 CI/CD 部署成功！</h1>
-        <p class="version">Flask App <strong>v1.0</strong> | Python {{ python_version }}</p>
+        <h1>🚀 CI/CD 部署成功！</h1>
+        <p style="color:#333;font-size:24px;font-weight:bold;margin-top:16px;">学号：2440666120</p>
+        <p style="color:#333;font-size:24px;font-weight:bold;">姓名：陈伟俊</p>
+        <p style="color:#764ba2;font-size:16px;font-weight:600;margin-top:16px;">Flask App v2.0</p>
+        <p style="color:#764ba2;font-size:16px;font-weight:600;margin-bottom:24px;">Python {{ python_version }}</p>
         <div class="status">✅ 服务运行正常</div>
         <div class="info">
             <p><span>容器 ID：</span>{{ hostname }}</p>
